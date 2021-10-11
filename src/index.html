@@ -60,21 +60,21 @@
                     <h3 class="main">Преждевременная оптимизация</h3>
                     <p class="cogn-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                 </a>
-                <div href="#novelty" class="cogn">
+                <a href="#distortion-of-novelty" class="cogn">
                     <p class="num">3</p>
                     <h3 class="main">Искажение новизны</h3>
                     <p class="cogn-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
-                </div>
-                <div href="depreciation" class="cogn">
+                </a>
+                <a href="#hyperbolic-depreciation" class="cogn">
                     <p class="num">4</p>
                     <h3 class="main">Гиперболическое обесценивание</h3>
                     <p class="cogn-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
-                </div>
-                <div href="error-planning" class="cogn">
+                </a>
+                <a href="#errors-in-planning" class="cogn">
                     <p class="num">5</p>
                     <h3 class="main">Ошибка планирования</h3>
                     <p class="cogn-text">Неправильно рассчитывать время необходимое для завершения задачи.</p>
-                </div>
+                </a>
             </section>
         </div>
         <div class="ikea" id="ikea-effect">
@@ -99,7 +99,7 @@
                 <div class="dist-summary">
                     <p class="cogn-dist-p">Когнитивные искажения</p>
                     <h2>Преждевременная оптимизация</h2>
-                    <p>Вы оптимизируете что-то задолго до<br>того, как в этом появляется<br>необходимость</p>
+                    <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость</p>
                 </div>
                 <div class="cogn-image">
                     <img src="images/2.png" alt="Premature optimization">
@@ -165,12 +165,24 @@
         </div>
     </main>
     <footer>
-        <div style="height: 500px"></div>
-        <div style="height: 500px"></div>
-
-        <section id="ikea">IKEA</section>
-        <div style="height: 500px"></div>
-        <div style="height: 500px"></div>
+        <section class="footer-container">
+            <div class="more-info">
+                <h3>Хотите узнать больше?<br>Подпишитесь на обновления</h3>
+                <form>
+                    <p class="email">Электронная почта</p>
+                    <div class="email-input">
+                        <input type="email" placeholder="Ваша электронная почта">
+                        <button class="send-btn"></button>
+                    </div>
+                    <p class="agreement">Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
+                </form>
+            </div>
+            <div class="author-info">
+                <p>@ 2021 Дмитрий Щербина</p>
+                <p>По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></p>
+                <a href="https://ru.hexlet.io/">Курсы программирования Hexlet</a>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
