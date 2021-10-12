@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="background header-background">
         <section class="header-container">
                 <div class="header-title">
-                    <h1 class="main header-title-text">Когнитивные <br>искажения <br><span class="dark">в программировании</span></h1>
+                    <h1 class="header-title-text">Когнитивные <br>искажения <br><span class="dark">в программировании</span></h1>
                     <img src="images/main.png" class="header-image">
                 </div>
                 <div class="header-text">
@@ -32,7 +32,7 @@
         <div class="what">
             <section class="what-is">
                 <div class="what-is-header">
-                    <h2 class="main"><span class="dark">Что же это такое,</span>
+                    <h2><span class="dark">Что же это такое,</span>
                         <br>когнитивные искажения?
                     </h2>
                     <p>Что такое когнитивные искажения.Petrovna Channel</p>    
@@ -45,46 +45,47 @@
         <div class="cogn-dist">
             <section id="navigation">
                 <div class="cogn-header">
-                    <h2 class="main cogn-h">5 когнитивных
+                    <h2 class="cogn-h">5 когнитивных
                         искажений
                         <br><span class="light">о существовании которых стоит помнить</span>
                     </h2>
                 </div>
                 <a href="#ikea-effect" class="cogn">
                     <p class="num">1</p>
-                    <h3 class="main">Эффект ИКЕА</h3>
+                    <h3>Эффект ИКЕА</h3>
                     <p class="cogn-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
                 </a>
                 <a href="#premature-optimization" class="cogn">
                     <p class="num">2</p>
-                    <h3 class="main">Преждевременная оптимизация</h3>
+                    <h3>Преждевременная оптимизация</h3>
                     <p class="cogn-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                 </a>
                 <a href="#distortion-of-novelty" class="cogn">
                     <p class="num">3</p>
-                    <h3 class="main">Искажение новизны</h3>
+                    <h3>Искажение новизны</h3>
                     <p class="cogn-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
                 </a>
                 <a href="#hyperbolic-depreciation" class="cogn">
                     <p class="num">4</p>
-                    <h3 class="main">Гиперболическое обесценивание</h3>
+                    <h3>Гиперболическое обесценивание</h3>
                     <p class="cogn-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
                 </a>
                 <a href="#errors-in-planning" class="cogn">
                     <p class="num">5</p>
-                    <h3 class="main">Ошибка планирования</h3>
+                    <h3>Ошибка планирования</h3>
                     <p class="cogn-text">Неправильно рассчитывать время необходимое для завершения задачи.</p>
                 </a>
             </section>
         </div>
-        <div class="ikea" id="ikea-effect">
-                <section class="ikea-effect">
+        <!-- <div class="distorions"> -->
+            <div class="ikea cognitive-distortion background" id="ikea-effect">
+                <section class="ikea-effect cogn-dist-section odd">
                     <div class="cogn-image">
                         <img src="images/1.png" alt="IKEA effect">
                     </div>
                     <div class="dist-summary">
                         <p class="cogn-dist-p">Когнитивные искажения</p>
-                        <h2>Эффект ИКЕА</h2>
+                        <h2 class="dark">Эффект ИКЕА</h2>
                         <p>Вы переоцениваете собственные<br>решения, и, как следствие,<br>недооцениваете решения других</p>
                     </div>
                     <h3 class="manifest-header header-brown">как проявляется</h3>
@@ -93,81 +94,82 @@
                         <p>Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>    
                     </div>
                 </section>
-        </div>
-        <div class="premature" id="premature-optimization">
-            <section class="premature-optimization">
-                <div class="dist-summary">
-                    <p class="cogn-dist-p">Когнитивные искажения</p>
-                    <h2>Преждевременная оптимизация</h2>
-                    <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость</p>
-                </div>
-                <div class="cogn-image">
-                    <img src="images/2.png" alt="Premature optimization">
-                </div>
-                <h3 class="manifest-header header-white">как проявляется</h3>
-                <div class="dist-description">
-                    <p>Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
-                    <p>Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
-                </div>
-            </section>
-        </div>
-        <div class="distortion" id="distortion-of-novelty">
-            <section class="distortion-of-novelty">
-                <div class="cogn-image">
-                    <img src="images/3.png" alt="distortion of novelty">
-                </div>
-                <div class="dist-summary">
-                    <p class="cogn-dist-p">Когнитивные искажения</p>
-                    <h2>Искажение новизны</h2>
-                    <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
-                </div>
-                <h3 class="manifest-header header-brown">как проявляется</h3>
-                <div class="dist-description">
-                    <p>Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
-                    <p>Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
-                </div>
-            </section>
-        </div>
-        <div class="hyperbolic" id="hyperbolic-depreciation">
-            <section class="hyperbolic-depreciation">
-                <div class="dist-summary">
-                    <p class="cogn-dist-p">Когнитивные искажения</p>
-                    <h2>Гиперболическое обесценивание</h2>
-                    <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
-                </div>
-                <div class="cogn-image">
-                    <img src="images/4.png" alt="hyperbolic depreciation">
-                </div>
-                <h3 class="manifest-header header-white">как проявляется</h3>
-                <div class="dist-description">
-                    <p>Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание.</p>
-                    <p>Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
-                </div>
-            </section>
-        </div>
-        <div class="errors" id="errors-in-planning">
-            <section class="errors-in-planning">
-                <div class="cogn-image">
-                    <img src="images/5.png" alt="errors in planning">
-                </div>
-                <div class="dist-summary">
-                    <p class="cogn-dist-p">Когнитивные искажения</p>
-                    <h2>Ошибка планирования</h2>
-                    <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
-                </div>
-                <h3 class="manifest-header header-brown">как проявляется</h3>
-                <div class="dist-description">
-                    <p>Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
-                    <p>Это отлично выражается в старом афоризме:
-                    <br>Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
-                </div>
-            </section>
-        </div>
+            </div>
+            <div class="premature cognitive-distortion background" id="premature-optimization">
+                <section class="premature-optimization  cogn-dist-section even">
+                    <div class="dist-summary">
+                        <p class="cogn-dist-p">Когнитивные искажения</p>
+                        <h2 class="light">Преждевременная оптимизация</h2>
+                        <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость</p>
+                    </div>
+                    <div class="cogn-image">
+                        <img src="images/2.png" alt="Premature optimization">
+                    </div>
+                    <h3 class="manifest-header header-white">как проявляется</h3>
+                    <div class="dist-description">
+                        <p>Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
+                        <p>Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
+                    </div>
+                </section>
+            </div>
+            <div class="distortion cognitive-distortion background" id="distortion-of-novelty">
+                <section class="distortion-of-novelty  cogn-dist-section odd">
+                    <div class="cogn-image">
+                        <img src="images/3.png" alt="distortion of novelty">
+                    </div>
+                    <div class="dist-summary">
+                        <p class="cogn-dist-p">Когнитивные искажения</p>
+                        <h2  class="dark">Искажение новизны</h2>
+                        <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
+                    </div>
+                    <h3 class="manifest-header header-brown">как проявляется</h3>
+                    <div class="dist-description">
+                        <p>Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
+                        <p>Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
+                    </div>
+                </section>
+            </div>
+            <div class="hyperbolic cognitive-distortion background" id="hyperbolic-depreciation">
+                <section class="hyperbolic-depreciation cogn-dist-section even">
+                    <div class="dist-summary">
+                        <p class="cogn-dist-p">Когнитивные искажения</p>
+                        <h2 class="light">Гиперболическое обесценивание</h2>
+                        <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
+                    </div>
+                    <div class="cogn-image">
+                        <img src="images/4.png" alt="hyperbolic depreciation">
+                    </div>
+                    <h3 class="manifest-header header-white">как проявляется</h3>
+                    <div class="dist-description">
+                        <p>Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание.</p>
+                        <p>Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
+                    </div>
+                </section>
+            </div>
+            <div class="errors cognitive-distortion background" id="errors-in-planning">
+                <section class="errors-in-planning  cogn-dist-section odd">
+                    <div class="cogn-image">
+                        <img src="images/5.png" alt="errors in planning">
+                    </div>
+                    <div class="dist-summary">
+                        <p class="cogn-dist-p">Когнитивные искажения</p>
+                        <h2 class="dark">Ошибка планирования</h2>
+                        <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
+                    </div>
+                    <h3 class="manifest-header header-brown">как проявляется</h3>
+                    <div class="dist-description">
+                        <p>Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
+                        <p>Это отлично выражается в старом афоризме:
+                        <br>Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
+                    </div>
+                </section>
+            </div>
+        <!-- </div> -->
     </main>
     <footer>
         <section class="footer-container">
             <div class="more-info">
-                <h3>Хотите узнать больше?<br>Подпишитесь на обновления</h3>
+                <h3 class="light">Хотите узнать больше?<br>Подпишитесь на обновления</h3>
                 <form>
                     <p class="email">Электронная почта</p>
                     <div class="email-input">
