@@ -312,10 +312,6 @@ h3 {
   font: 24px/1.2em "Neucha", sans-serif;
 }
 
-.bias-image {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
 .bias-summary > h2 {
   margin-bottom: 30px;
 }
