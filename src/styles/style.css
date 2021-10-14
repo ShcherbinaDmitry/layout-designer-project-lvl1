@@ -193,6 +193,7 @@ h3 {
 .navigation {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   gap: 20px 30px;
   padding-top: 200px;
 }
@@ -241,6 +242,10 @@ h3 {
 .bias-header {
   display: flex;
   gap: 30px;
+}
+
+.bias-image {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .bias-name {
